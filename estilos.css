@@ -47,6 +47,7 @@
 
     }
     .caja1{
+        align-self: center;
         height: 60px;
         width: 50px;
         background-color: blueviolet;
@@ -57,6 +58,7 @@
         background-color: blue;
     }
     .caja3{
+        align-self: center;
         height: 60px;
         width: 50px;
         background-color: yellowgreen;
