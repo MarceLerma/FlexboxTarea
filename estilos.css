@@ -1,0 +1,108 @@
+.container-header{
+    height: 65px;
+    width: 100%;
+    /* img src= "./Recursos/logo.png"; */
+    background-image: url("./Recursos/imagenheader.PNG");
+    background-size: 65px 60px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    border-bottom: 1px solid plum;
+    margin-bottom: 5px;
+}
+.container-main{
+    width: 99%;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container-subsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 400px;
+    color: black;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: 1px solid plum;
+    background-image: url("./Recursos/imagen1.PNG");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 39%;
+    height: 390px;
+    color: black;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid plum;
+
+    }
+    .caja1{
+        height: 60px;
+        width: 50px;
+        background-color: blueviolet;
+    }
+    .caja2{
+        height: 60px;
+        width: 50px;
+        background-color: blue;
+    }
+    .caja3{
+        height: 60px;
+        width: 50px;
+        background-color: yellowgreen;
+    }
+    .caja4{
+        height: 60px;
+        width: 50px;
+        background-color: pink;
+    }
+
+.container-footer{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    padding: 2px;
+    margin: 2px;
+    background-color: whitesmoke;
+    color: black; 
+    border-top: 1px solid plum;
+    border-bottom: 1px solid plum;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-socialface{
+    width: 40px;
+    height:25px; 
+    background-image: url(./Recursos/facbook.PNG);
+    background-size: 30px 25px;  
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.container-socialinstagram{
+    width: 40px;
+    height:25px; 
+    background-image: url(./Recursos/instagram.png);
+    background-size: 30px 25px;  
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.container-socialtwitter{
+    width: 40px;
+    height:25px; 
+    background-image: url(./Recursos/twitter.png);
+    background-size: 30px 25px;  
+    background-repeat: no-repeat;
+    background-position: left;
+}
