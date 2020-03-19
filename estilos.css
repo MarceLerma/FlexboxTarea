@@ -20,7 +20,7 @@
 .container-subsection{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 60%;
     height: 400px;
     color: black;
@@ -35,8 +35,8 @@
 
 .container-aside{
     display: flex;
-    align-items: flex-end;
     justify-content: space-evenly;
+    align-items: center;
     width: 39%;
     height: 390px;
     color: black;
@@ -47,7 +47,7 @@
 
     }
     .caja1{
-        align-self: center;
+        align-self: flex-start;
         height: 60px;
         width: 50px;
         background-color: blueviolet;
@@ -58,7 +58,7 @@
         background-color: blue;
     }
     .caja3{
-        align-self: center;
+        align-self: flex-end;
         height: 60px;
         width: 50px;
         background-color: yellowgreen;
