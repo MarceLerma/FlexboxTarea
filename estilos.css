@@ -19,8 +19,8 @@
 }
 .container-subsection{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 60%;
     height: 400px;
     color: black;
@@ -35,8 +35,8 @@
 
 .container-aside{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
     width: 39%;
     height: 390px;
     color: black;
